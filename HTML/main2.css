@@ -1,0 +1,106 @@
+
+body{
+/*    background-image: url(zebras-minimalism-monochrome-artwork-wallpaper-preview.jpeg);*/
+/*    background-repeat:no-repeat;*/
+/*    background-size: cover;*/
+    background-color:#444;
+/*    text-align: center;*/
+}
+
+.container{
+   /* background: linear-gradient(to left, #00ccff, #b3f0ff);
+    box-shadow:3px 5px 3px black;*/
+}
+
+h1{
+    color: #ffffff;
+    line-height: 1rem;
+    font-style:'Roboto:ital',serif,;
+}
+h2{
+    color: #ffffff;
+    line-height: 1rem;
+    font-style:'Roboto:ital',serif,;
+}
+h3{
+    color: #ffffff;
+    line-height: 1rem;
+    font-style:'Roboto:ital',serif,;
+}
+.formatting{
+    font-size:20px;
+    line-height: 2em;
+    color: white;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+    color:yellow;
+    word-spacing: 30px;
+    text-transform: uppercase;
+}
+img{
+    max-width:100%;
+    height:auto;
+    padding:5px;
+    opacity:0.5;
+    margin-bottom:60px;
+}
+.borderImg{
+    border-radius:10px;
+    width:200px;
+    height:200px;
+    border:2px solid #ddd;
+    padding:5px;
+   
+}
+button{
+    color:white;
+    background:red;
+    border-radius:12px;
+    border:none;
+    font-size:20px;
+    padding:10px 20px;
+    
+}
+ul li{
+    color: white;
+    font-size:20px;
+}
+
+ul > li{
+    color: yellow;
+}
+.row{
+    display:flex;
+    width:100%;
+}
+
+.row::after{
+    display:block;
+    clear:both;
+    content:"";
+}
+
+.col-1{width:8.33%};
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+*{
+    box-sizing:border-box;
+}
+
+
+[class*="col-"]{
+    border: 2px solid red;
+    padding: 15px
+}
